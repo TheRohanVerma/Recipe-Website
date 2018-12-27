@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="project.main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+</head>
+<body style="background-image:url("nevlogo.jpeg")" bgcolor="#99ff99" >
+    <form id="form1" runat="server">
+   
+   <center>
+    <table width="100%" style="height: 100%" border="black 2px solid">
+    <tr><td align="center" colspan="6">
+        <img width="70%" src="giphy.gif" height="400px" alt="Nevon logo"/></td></tr>
+    <tr>  
+                    <td width="16%"> <a href="main.aspx">HOME</a></td>
+                                    <td width="16%"> <a href="home.aspx">LOGIN</a></td>
+                                   <td width="16%"> <a href="register.aspx">REGISTER</a></td>
+                                    <td width="16%"><a href="review.aspx">RECIPE</a></td>
+                                     <td width="16%"><a href="gallery.aspx">GALLERY</a></td>
+                                <td width="16%">    <a href="about.aspx">ABOUT US</a>
+            
+            
+                                </td>
+        </tr>
+        <tr>
+        <td colspan="6" >
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </td>
+      
+
+    </tr>
+      
+    </table>
+    
+
+    
+    </center>
+    </form>
+</body>
+</html>
